@@ -2,8 +2,6 @@
 
 ### What is this repository for? ###
 
-* Version 1
-
 I got tired of reformatting my resume for this gig or that so I wrote this is a AngularJS single page application that generates a tailored resume.  Please feel free to fork it and put in your own data.  See below on how to do that.
 
 ### How do I get set up? ###
