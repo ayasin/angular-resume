@@ -1,0 +1,14 @@
+@media print {
+	.hide-on-print {
+		display: none;
+	}
+}
+
+.cursor-hand {
+	cursor: pointer;
+	cursor: hand;
+}
+
+.strike-through {
+	text-decoration: line-through;
+}
