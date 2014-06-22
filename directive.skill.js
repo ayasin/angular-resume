@@ -3,7 +3,7 @@
 	var _ = window._;
 	window.angular.module("resume").directive('skillSet', ['ResumeService', function (ResumeService) {
 		var controller = function ctrl ($scope) {
-			var i, currentBlock, skillsPerBlock;
+			var i, currentBlock;
 
 			$scope.$watch('resume.skills', function (newValue, oldValue) {
 				if (oldValue === newValue) {
@@ -57,7 +57,7 @@
 			controller : ['$scope', controller],
 			template:   '<table class="table">' +
 							'<tr ng-repeat="skillBlock in skillBlocks" class="text-center" style="line-height: 2em">' +
-								'<td href="#" ng-repeat="aSkill in skillBlock track by $index" >' +
+								'<td ng-repeat="aSkill in skillBlock track by $index" >' +
 									'<div class="cursor-hand" skill="aSkill" ng-class="skillAdditionalClasses(aSkill)" ng-click="onSkillClicked(aSkill)"></div>' +
 								'</td>' +
 							'</tr>' +

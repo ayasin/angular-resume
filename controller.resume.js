@@ -5,7 +5,6 @@
 	window.angular.module("resume").controller('resumeController', ['$scope', 'ResumeService', function($scope, ResumeService) {
 		function init() {
 			ResumeService.getResume().then(function(data) {
-				var i, currentBlock;
 				$scope.resume = data;
 				$scope.activeSkills = {};
 				_.each($scope.resume.skills, function (val) {
