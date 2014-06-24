@@ -251,7 +251,7 @@
 		]
 	};
 
-	window.angular.module("resume").service('ResumeService', ['$q', function ($q) {
+	window.angular.module("resume").factory('ResumeService', ['$q', function ($q) {
 		function getResume() {
 			var defer = $q.defer();
 			//if later you want to use REST inject $http and change this
