@@ -15,9 +15,9 @@
 			zip: '78665'
 		},
 
-		phoneNumber: '512 ... ....',
+		phoneNumber: '512 522 2647',
 
-		email: 'ay...n@....ensor.com',
+		email: 'ayasin@datatensor.com',
 
 		//Enter your objective here
 		objective : "<p>To utilize my 10+ years of experience as a top-notch software engineer/architect as well as enjoyment of learning " +
@@ -41,6 +41,27 @@
 
 		//List your projects below
 		projects : [
+			{
+				company : 'DataTensor - Contract',
+				projectName : 'Sapling Learning',
+				dates: '9/14 - Present',
+				skillsUsed : [
+					'JavaScript',
+					'React',
+					'FRP',
+					'BaconJS',
+					'NodeJS'
+				],
+				tags : [
+					'System Architecture',
+					'AJAX',
+					'Data Modeling'
+				],
+				highlights : [
+					'Redesign and rearchitect an existing flash based homework system into HTML5/React.js',
+					'System was redesigned into a functional reactive application using Bacon as the streams library'
+				]
+			},
 			{
 				company : 'DataTensor - Product',
 				projectName : 'ShopTensor',
