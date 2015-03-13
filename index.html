@@ -11,10 +11,8 @@
 		<div class="row text-center">
 			<personal-info address="resume.address" email="resume.email" phone-number="resume.phoneNumber" name="resume.name"></personal-info>
 		</div>
-		<div class="row">
-			<h3>Objective</h3>
-			<hr>
-			<p data-ng-bind-html="resume.objective"></p>
+		<div class="row text-center text-info">
+			{{resume.github}} &#8226; {{resume.blog}}
 		</div>
 		<div class="row">
 			<h3>Skills</h3>

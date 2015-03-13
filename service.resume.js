@@ -19,6 +19,10 @@
 
 		email: 'ayasin@datatensor.com',
 
+		github: 'github.com/ayasin',
+
+		blog: 'medium.com/@ayasin',
+
 		//Enter your objective here
 		objective : "<p>To utilize my 10+ years of experience as a top-notch software engineer/architect as well as enjoyment of learning " +
 					"to help companies solve difficult and interesting problems and stay on the cutting edge of technology innovation.</p>" +
