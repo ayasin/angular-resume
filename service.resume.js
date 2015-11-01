@@ -21,7 +21,7 @@
 
 		github: 'github.com/ayasin',
 
-		blog: 'medium.com/@ayasin',
+		blog: null,
 
 		//Enter your objective here
 		objective : "<p>To utilize my 10+ years of experience as a top-notch software engineer/architect as well as enjoyment of learning " +
@@ -35,7 +35,8 @@
 			"JavaScript",
 			"HTML5/CSS",
 			"MongoDB",
-			"Asynchronous Development"
+			"Asynchronous Development",
+			"Python"
 		],
 
 		projectsHeader : '<h4>Consulting (DataTensor & Direct Contract) October 2003 to Present</h4>' +
@@ -46,9 +47,33 @@
 		//List your projects below
 		projects : [
 			{
+				company : 'Partial Contract',
+				projectName : 'June Recruiting Platform',
+				dates: '3/15 - Present',
+				skillsUsed : [
+					'JavaScript',
+					'React',
+					'FRP',
+					'BaconJS',
+					'NodeJS',
+					'Python'
+				],
+				tags : [
+					'System Architecture',
+					'AJAX',
+					'Data Modeling'
+				],
+				highlights : [
+					'Wrote the front and backend of a candidate management system which helped recruiters find interested candidates',
+					'Wrote financial tracking in Node with a PostgreSQL backend',
+					'Helped with marketing and messaging',
+					'Performed various devops duties'
+				]
+			},
+			{
 				company : 'DataTensor - Contract',
 				projectName : 'Sapling Learning',
-				dates: '9/14 - Present',
+				dates: '9/14 - 9/15',
 				skillsUsed : [
 					'JavaScript',
 					'React',
@@ -62,14 +87,15 @@
 					'Data Modeling'
 				],
 				highlights : [
-					'Redesign and rearchitect an existing flash based homework system into HTML5/React.js',
-					'System was redesigned into a functional reactive application using Bacon as the streams library'
+					'Lead team to redesign and rearchitect an existing flash based homework system into a single page HTML5/React.js application',
+					'System was redesigned into a functional reactive application using Bacon as the streams library',
+					'The SPA was later embedded into various homework modules and e-books'
 				]
 			},
 			{
 				company : 'DataTensor - Product',
 				projectName : 'ShopTensor',
-				dates: '2/13 - Present',
+				dates: '2/13 - 2/14',
 				skillsUsed : [
 					'JavaScript',
 					'AngularJS',
@@ -93,7 +119,7 @@
 			{
 				company : 'NeoGenis - DataTensor Contract',
 				projectName : 'NeoGenis Web/Backend Support',
-				dates: '2/14 - Present',
+				dates: '2/14 - 6/14',
 				skillsUsed : [
 					'JavaScript',
 					'HTML5/CSS'
@@ -109,7 +135,7 @@
 			{
 				company : 'Thermopylae Science And Technology - Direct Contract',
 				projectName : 'Core Services',
-				dates: '1/13 - Present',
+				dates: '1/13 - 9/14',
 				skillsUsed : [
 					'Java',
 					'Android',

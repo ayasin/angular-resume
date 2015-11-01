@@ -10,7 +10,7 @@
 				_.each($scope.resume.skills, function (val) {
 					$scope.activeSkills[val] = true;
 				});
-
+				$scope.blogSeparatorStyle = (data.github && data.blog) ? {} : {'visibility' : 'hidden'};
 			}, function (error) {
 
 			});
