@@ -89,6 +89,10 @@
 				highlights : [
 					'Lead team to redesign and rearchitect an existing flash based homework system into a single page HTML5/React.js application',
 					'System was redesigned into a functional reactive application using Bacon as the streams library',
+					'Created plugin system that allowed for easy future expantion into different subjects by adding new modules',
+					'Wrote mock server code to allow disconnected development of modules',
+					'Created a test harness to test components in isolation',
+					'Trained 3rd party developers on how to create modules for the system',
 					'The SPA was later embedded into various homework modules and e-books'
 				]
 			},
